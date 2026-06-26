@@ -16,10 +16,9 @@ import {
     SiDocker,
     SiKubernetes,
     SiJenkins,
-    SiTableau,
-    SiAmazon,
 } from "react-icons/si";
-import { FaBrain, FaLanguage } from "react-icons/fa";
+import { FaBrain, FaLanguage, FaAmazon } from "react-icons/fa";
+import { IoLogoTableau } from "react-icons/io5";
 
 //
 // ✅ Local SVG Components
@@ -59,13 +58,13 @@ const skills = [
     { name: "Scikit-learn", icon: <SiScikitlearn />, percentage: 85 },
     { name: "Deep Learning", icon: <FaBrain />, percentage: 92 },
     { name: "NLP", icon: <FaLanguage />, percentage: 84 },
-    { name: "AWS", icon: <SiAmazon />, percentage: 89 },
+    { name: "AWS", icon: <FaAmazon />, percentage: 89 },
     { name: "Microsoft Azure", icon: <AzureIcon />, percentage: 83 },
     { name: "Docker", icon: <SiDocker />, percentage: 88 },
     { name: "Kubernetes", icon: <SiKubernetes />, percentage: 82 },
     { name: "Jenkins", icon: <SiJenkins />, percentage: 80 },
     { name: "Power BI", icon: <PowerBiIcon />, percentage: 86 },
-    { name: "Tableau", icon: <SiTableau />, percentage: 87 },
+    { name: "Tableau", icon: <IoLogoTableau />, percentage: 87 },
 ];
 
 //
