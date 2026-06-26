@@ -1,7 +1,8 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { BiEnvelope, BiMap, BiPhone, BiX, BiCheckCircle, BiErrorCircle } from "react-icons/bi";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const countries = [
   { code: "+91", iso: "in", name: "India", placeholder: "98765 43210", format: "XXXXX XXXXX" },
@@ -156,14 +157,14 @@ const Contact = () => {
             </div>
             {/* social icons */}
             <div className="flex items-center mt-4 space-x-2">
-              <a href="https://github.com/SajalTalukder" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer flex-col hover:bg-gray-700 transition-all duration-300">
+              <a href="https://github.com/Nandanm123" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer flex-col hover:bg-gray-700 transition-all duration-300">
                 <FaGithub className="text-white w-5 h-5" />
               </a>
               <a href="https://linkedin.com/in/nandan-mallikarjuna" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer flex-col hover:bg-blue-600 transition-all duration-300">
                 <FaLinkedin className="text-white w-5 h-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer flex-col hover:bg-sky-400 transition-all duration-300">
-                <FaTwitter className="text-white w-5 h-5" />
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer flex-col hover:bg-sky-400 transition-all duration-300">
+                <FaXTwitter className="text-white w-5 h-5" />
               </a>
             </div>
           </div>

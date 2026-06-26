@@ -73,7 +73,7 @@ const Hero = () => {
             <BsArrowRight className="w-4 h-4 ml-2 inline-block" />
           </button>
           <a
-            href="https://github.com/SajalTalukder"
+            href="https://github.com/Nandanm123"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"

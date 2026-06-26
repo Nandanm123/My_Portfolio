@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Live Ball Tracking System",
       tags: "Computer Vision, Sensor Fusion",
       metrics: "Real-Time Detection | Sports Analytics",
-      github: "https://github.com/SajalTalukder",
+      github: "https://github.com/Nandanm123",
       demo: "#"
     },
     {
@@ -17,7 +17,7 @@ const Projects = () => {
       title: "Deep Fake Video Recognition",
       tags: "Deep Learning, Computer Vision",
       metrics: "High Accuracy Detection | Production Ready",
-      github: "https://github.com/SajalTalukder",
+      github: "https://github.com/Nandanm123",
       demo: "#"
     },
     {
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Netflix-Clone Streaming Platform",
       tags: "Full-stack, Docker",
       metrics: "1000+ Users | Optimized Performance",
-      github: "https://github.com/SajalTalukder",
+      github: "https://github.com/Nandanm123",
       demo: "#"
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       title: "Real-Time Crop Recommendation System",
       tags: "IoT, Data Analytics",
       metrics: "99% Accuracy | 1000+ Farmers",
-      github: "https://github.com/SajalTalukder",
+      github: "https://github.com/Nandanm123",
       demo: "#"
     }
   ];
